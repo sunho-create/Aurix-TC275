@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="send_ASCLIN_UART_message();"/>
+		<list key="findhistory">
+			<item value="send_ASCLIN_UART_message();"/>
+			<item value="    IfxPort_togglePin(LED);                                                     /* Toggle the state of the LED      */"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,18 @@
+11:32:29 **** Incremental Build of configuration TriCore Debug (TASKING) for project single_ADC_test ****
+amk -j8 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc27xd "-fD:/Project/Aurix-TC275/single_ADC_test/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+ctc W537: ["../Cpu0_Main.c" 79/18] unused variable "ticksFor100ms"
+0 errors, 1 warnings
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: single_ADC_test.elf
+Invoking: TASKING Linker
+cctc -f .single_ADC_test.elf.opt
+ltc E106: unresolved external: decode_adc_command - (ASCLIN_UART.o)
+ltc F019: unrecoverable error: fatal link error
+amk E452: ["makefile" 90/0] target 'single_ADC_test.elf' returned exit code 1
+amk E451: make stopped
+"amk -j8 all" terminated with exit code 1. Build might be incomplete.
+
+11:32:29 Build Failed. 4 errors, 1 warnings. (took 608ms)
+

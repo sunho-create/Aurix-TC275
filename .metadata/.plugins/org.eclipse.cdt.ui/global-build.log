@@ -1,0 +1,34 @@
+Build started...
+16:43:42 **** Incremental Build of configuration TriCore Debug (TASKING) for project GPT12_PWM_Test1 ****
+amk -j8 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc27xd "-fD:/Project/Aurix-TC275/GPT12_PWM_Test1/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src"
+Building target: GPT12_PWM_Test1.elf
+Invoking: TASKING Linker
+cctc -f .GPT12_PWM_Test1.elf.opt
+Finished building target: GPT12_PWM_Test1.elf
+ 
+Invoking: Print Size
+elfsize  "GPT12_PWM_Test1.elf"
+Total sizes:
+ROM: 0x242b (9259) = code: 0x2282 (8834) + romdata: 0x1a9 (425)
+RAM: 0x9521 (38177) = data + bss
+Finished building: GPT12_PWM_Test1.siz
+ 
+Build started...
+16:43:48 **** Incremental Build of configuration TriCore Debug (TASKING) for project GPT12_PWM_Test1 ****
+amk -j8 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: GPT12_PWM_Test1.elf
+Invoking: TASKING Linker
+cctc -f .GPT12_PWM_Test1.elf.opt
+Finished building target: GPT12_PWM_Test1.elf
+ 
+Invoking: Print Size
+elfsize  "GPT12_PWM_Test1.elf"
+Total sizes:
+ROM: 0x242b (9259) = code: 0x2282 (8834) + romdata: 0x1a9 (425)
+RAM: 0x9521 (38177) = data + bss
+Finished building: GPT12_PWM_Test1.siz
+ 

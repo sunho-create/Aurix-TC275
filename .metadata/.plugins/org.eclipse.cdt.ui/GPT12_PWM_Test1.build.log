@@ -1,0 +1,18 @@
+16:43:48 **** Incremental Build of configuration TriCore Debug (TASKING) for project GPT12_PWM_Test1 ****
+amk -j8 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+Building target: GPT12_PWM_Test1.elf
+Invoking: TASKING Linker
+cctc -f .GPT12_PWM_Test1.elf.opt
+Finished building target: GPT12_PWM_Test1.elf
+ 
+Invoking: Print Size
+elfsize  "GPT12_PWM_Test1.elf"
+Total sizes:
+ROM: 0x242b (9259) = code: 0x2282 (8834) + romdata: 0x1a9 (425)
+RAM: 0x9521 (38177) = data + bss
+Finished building: GPT12_PWM_Test1.siz
+ 
+
+16:43:49 Build Finished. 0 errors, 0 warnings. (took 518ms)
+

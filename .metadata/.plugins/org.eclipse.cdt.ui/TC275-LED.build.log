@@ -1,0 +1,15 @@
+13:39:49 **** Incremental Build of configuration TriCore Debug (TASKING) for project TC275-LED ****
+amk -j8 all 
+TASKING VX-toolset for AURIX Development Studio (non-commercial): program builder v1.1r8 Build 22011964
+cctc -cs --dep-file="Blinky_LED.d" --misrac-version=2004 -D__CPU__=tc27xd "-fD:/Project/Aurix-TC275/TC275-LED/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Blinky_LED.src" "../Blinky_LED.c"
+cctc -cs --dep-file="Cpu0_Main.d" --misrac-version=2004 -D__CPU__=tc27xd "-fD:/Project/Aurix-TC275/TC275-LED/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu0_Main.src" "../Cpu0_Main.c"
+cctc -cs --dep-file="Cpu1_Main.d" --misrac-version=2004 -D__CPU__=tc27xd "-fD:/Project/Aurix-TC275/TC275-LED/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu1_Main.src" "../Cpu1_Main.c"
+cctc -cs --dep-file="Cpu2_Main.d" --misrac-version=2004 -D__CPU__=tc27xd "-fD:/Project/Aurix-TC275/TC275-LED/TriCore Debug (TASKING)/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -Y0 -N0 -Z0 -o "Cpu2_Main.src" "../Cpu2_Main.c"
+ctc E219: ["../Blinky_LED.c" 32/1] cannot open #include file "Bsp.h"
+1 errors, 0 warnings
+amk E452: ["subdir.mk" 33/0] target 'Blinky_LED.src' returned exit code 1
+amk E451: make stopped
+"amk -j8 all" terminated with exit code 1. Build might be incomplete.
+
+13:39:50 Build Failed. 3 errors, 0 warnings. (took 192ms)
+
